@@ -9,16 +9,6 @@
 #include "ns3/internet-module.h"
 #include "ns3/netanim-module.h"
 
-
-// Default Network Topology
-//
-//       10.1.1.0
-// n0 -------------- n1   n2   n3   n4
-//    point-to-point  |    |    |    |
-//                    ================
-//                      LAN 10.1.2.0
-
-
 using namespace ns3;
 int 
 main (int argc, char *argv[])
